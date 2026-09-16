@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>La Rioja en 5 Pistas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="app">
+  <section id="start" class="screen active">
+    <img src="logo.png" class="logo" alt="La Rioja en 5 Pistas — Adivina el municipio">
+    <p class="intro">Lee las pistas, elige una respuesta y consigue hasta 5 puntos por enigma.</p>
+    <button id="startBtn" class="primary">▶ JUGAR</button>
+    <p class="small">Juego divulgativo sin finalidad comercial. Fuentes indicadas en cada enigma.</p>
+  </section>
+  <section id="game" class="screen">
+    <div class="topbar"><span id="progress"></span><span id="score">Puntos: 0</span></div>
+    <div class="panel">
+      <div class="tag" id="category"></div>
+      <h1 id="question"></h1>
+      <div class="cluebox"><div class="cluehead"><span id="clueNumber"></span><span id="points"></span></div><p id="clue"></p></div>
+      <div id="options" class="options"></div>
+      <div id="feedback" class="feedback" aria-live="polite"></div>
+      <div class="actions"><button id="nextBtn" class="primary" disabled>Continuar ▶</button><button id="hintBtn" class="secondary">Ver siguiente pista</button></div>
+    </div>
+  </section>
+  <section id="end" class="screen">
+    <div class="panel final"><h1>🎉 ¡Juego terminado!</h1><p id="finalScore"></p><button id="againBtn" class="primary">Jugar otra vez</button><p class="small">Puedes consultar el Excel incluido para revisar las pistas y fuentes.</p></div>
+  </section>
+</main>
+<script src="enigmas.js"></script><script src="script.js"></script>
+</body></html>
