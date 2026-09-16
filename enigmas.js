@@ -85,13 +85,13 @@ const ENIGMAS = [
       "Es la variedad mayoritaria en la plantación de Rioja.",
       "Su nombre es Tempranillo."
     ],
-    "answer": "Albariño",
+    "answer": "Tempranillo",
     "options": [
       "Albariño",
       "Tempranillo",
       "Palomino"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "La Tempranillo es una variedad tinta tradicional y mayoritaria en Rioja.",
     "category": "Vino",
     "difficulty": "Fácil",
