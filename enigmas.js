@@ -226,7 +226,7 @@ const ENIGMAS = [
   },
   {
     "id": 10,
-    "title": "900 metros",
+    "title": "¿A qué altitud aproximada pueden llegar los viñedos de la DOCa Rioja?",
     "group": "altitud vitícola",
     "clues": [
       "Es una altitud aproximada.",
@@ -235,13 +235,13 @@ const ENIGMAS = [
       "No es una distancia ni una superficie.",
       "La altitud máxima aproximada es 900 metros."
     ],
-    "answer": "300 metros",
+    "answer": "900 metros",
     "options": [
       "300 metros",
       "900 metros",
       "1.800 metros"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Los viñedos de la DOCa Rioja alcanzan una altitud máxima aproximada de 900 metros.",
     "category": "Vino y territorio",
     "difficulty": "Media",
